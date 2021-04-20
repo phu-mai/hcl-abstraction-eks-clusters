@@ -1,11 +1,11 @@
 # EKS ABSTRACTION LAYER
-The EKS abstraction layer is allowed you to easily to create cluster in the simple inputs:
+The EKS abstraction layer is wrapper the multiple functions (module or resource) in order to allowed users to easily to create clusters with a simple inputs
 
 ## Terraform versions
 
 Only Terraform 0.12 or newer is supported.
 
-## Example:
+## Usage example:
 
 ```
 module "eks_cluster_001" {
